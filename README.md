@@ -51,6 +51,7 @@ I included railroads in this analysis because I find them almost as disruptive, 
 ## Output
 
 The [/output](/output/) folder in this repo contains the results for a variety of "backcountry" definitions:
+
     * X_mile_backcountry_trails.geojson: all trail segments that meet our definition
     * X_mile_buffer.geojson: an artifact we generate containing the buffer from all the roads and railways, useful for visualization and debugging, but pretty ugly and unusable
     * X_mile_buffer.dbf/prj/shp/shx: the various components of the shapefile version of X_mile_buffer.geojson, a much more usable (because smaller) but still ugly and unusable artifact
