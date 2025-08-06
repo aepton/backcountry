@@ -1,0 +1,8 @@
+venv/
+.DS_Store
+input/washington/
+output/*_buffer.geojson
+output/*.dbf
+output/*.prj
+output/*.shx
+output/*.shp

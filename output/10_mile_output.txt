@@ -1,0 +1,62 @@
+Step 1: Reading Washington shapefiles...
+Reading 2 shapefile(s):
+  - gis_osm_roads_free_1.shp (roads)
+  - gis_osm_railways_free_1.shp (railways)
+  Excluded 357673 features with road types: pedestrian, bridleway, footway, steps, path
+Loaded 991857 features from gis_osm_roads_free_1.shp
+Loaded 9916 features from gis_osm_railways_free_1.shp
+Step 2: Creating 10.0-mile buffers...
+Creating 10.0-mile buffers around 1001773 features...
+Step 2a: Saving buffer geometries
+Saved 1001773 buffer geometries to 10_mile_buffer.geojson
+Step 3: Reading trails shapefile...
+Loaded 22454 trail features
+Step 4: Finding non-intersecting trail segments...
+Finding trail segments that don't intersect with buffers (min length: 0.1 miles)...
+Found 27 non-intersecting trail segments
+Step 5: Saving results to GeoJSON...
+Saved 27 trail segments to 10_mile_backcountry_trails.geojson
+Step 6: Computing longest trails...
+
+Analyzing trail lengths...
+
+Top 14 longest trails (grouped by name):
+Rank  Total Length (miles) Segments   Trail Name
+--------------------------------------------------------------------------------
+1     7.63                 6.0        Elwha River Trail
+2     2.89                 1.0        Southern Bailey Range
+3     1.95                 5.0        Skyline Trail
+4     1.83                 1.0        Happy Hollow Trail
+5     1.80                 1.0        Humes Glacier
+6     1.69                 2.0        Skyline Primitive Trail
+7     1.52                 1.0        Big Beaver
+8     0.99                 3.0        North Fork Quinault River Trail
+9     0.97                 1.0        Hoh River Trail
+10    0.77                 2.0        Blue Glacier Primitive Trail
+11    0.62                 1.0        Martins Park Primitive Trail
+12    0.49                 1.0        Elwha Basin Way Trail
+13    0.36                 1.0        Pacific Northwest Trail
+14    0.34                 1.0        Terminus Primitive Trail
+
+Individual trail segments (top 10):
+Rank  Length (miles)  Trail Name
+--------------------------------------------------
+1     2.89            Southern Bailey Range
+2     2.52            Elwha River Trail
+3     1.83            Happy Hollow Trail
+4     1.80            Humes Glacier
+5     1.52            Big Beaver
+6     1.35            Skyline Primitive Trail
+7     1.33            Elwha River Trail
+8     1.33            Elwha River Trail
+9     0.97            Hoh River Trail
+10    0.95            Elwha River Trail
+
+Summary:
+Total length of non-intersecting trail segments: 23.86 miles
+Number of unique trails: 14
+Number of trail segments: 27
+Average trail length: 1.70 miles
+Average segment length: 0.88 miles
+
+Analysis complete!

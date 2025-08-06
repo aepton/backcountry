@@ -1,0 +1,1124 @@
+Step 1: Reading Washington shapefiles...
+Reading 2 shapefile(s):
+  - gis_osm_roads_free_1.shp (roads)
+  - gis_osm_railways_free_1.shp (railways)
+  Excluded 357673 features with road types: path, steps, bridleway, pedestrian, footway
+Loaded 991857 features from gis_osm_roads_free_1.shp
+Loaded 9916 features from gis_osm_railways_free_1.shp
+Step 2: Creating 1.0-mile buffers...
+Creating 1.0-mile buffers around 1001773 features...
+Step 2a: Saving buffer geometries
+Saved 1001773 buffer geometries to 1_mile_buffer.geojson
+Step 3: Reading trails shapefile...
+Loaded 22454 trail features
+Step 4: Finding non-intersecting trail segments...
+Finding trail segments that don't intersect with buffers (min length: 0.1 miles)...
+Found 1758 non-intersecting trail segments
+Step 5: Saving results to GeoJSON...
+Saved 1758 trail segments to 1_mile_backcountry_trails.geojson
+Step 6: Computing longest trails...
+
+Analyzing trail lengths...
+
+Top 1,076 longest trails (grouped by name):
+Rank  Total Length (miles) Segments   Trail Name
+--------------------------------------------------------------------------------
+1     133.16               22.0       Pacific Crest National Scenic Trail
+2     51.46                3.0        Pacific Northwest Trail
+3     45.82                20.0       Wonderland
+4     39.98                35.0       USFS#2000
+5     32.93                9.0        Boundary
+6     25.79                34.0       Elwha River Trail
+7     22.53                1.0        Icicle Ridge
+8     22.11                6.0        Mill Creek
+9     21.31                1.0        Hidden Lakes
+10    21.20                12.0       Bogachiel River Trail
+11    20.95                1.0        Monument Creek
+12    20.01                1.0        Robinson Creek
+13    19.40                10.0       East Fork Quinault River Trail
+14    19.00                2.0        American Ridge
+15    17.85                2.0        Devils Ridge
+16    17.38                14.0       Mount Baker Snoqulamie National Forest Trails
+17    17.29                5.0        Chewuch
+18    16.96                2.0        Rock Creek
+19    16.92                1.0        Castle Pass
+20    16.72                16.0       National Forest System Trail
+21    16.60                2.0        Indian Creek
+22    16.57                2.0        Lake Creek
+23    16.32                3.0        Rattlesnake
+24    16.12                1.0        Summit Trail Wilderness
+25    16.08                2.0        East Creek
+26    16.01                1.0        Buckskin Ridge
+27    15.96                4.0        USFS#784
+28    15.76                3.0        Loowit
+29    15.68                1.0        Big Beaver
+30    15.61                4.0        Boulder Creek
+31    15.20                1.0        Larch Creek Trail
+32    14.96                12.0       Hoh River Trail
+33    14.65                1.0        Pyramid Mountain
+34    14.43                4.0        Northern Loop
+35    14.42                12.0       North Fork Quinault River Trail
+36    14.25                3.0        East Bank
+37    14.20                2.0        Little Beaver
+38    14.15                2.0        Andrews Creek
+39    14.13                5.0        Duckabush River Trail
+40    13.97                8.0        Queets River Trail
+41    13.55                1.0        Smooth Ridge
+42    13.35                1.0        Eureka Creek
+43    13.31                1.0        Coleman Ridge
+44    13.18                1.0        Crooked Creek
+45    13.13                1.0        Copper Ridge
+46    12.88                8.0        Skyline Trail
+47    12.88                1.0        White River
+48    12.75                1.0        Jackita Ridge
+49    12.74                1.0        Entiat River
+50    12.70                1.0        Ingalls Creek
+51    12.62                2.0        West Fork Pasayten
+52    12.52                2.0        French Creek
+53    11.79                3.0        Thunder Creek
+54    11.59                9.0        North Fork Skokomish River Trail
+55    11.55                2.0        Company Creek
+56    11.38                3.0        Pacific Crest Trail - 2000
+57    11.36                1.0        Boulder Pass
+58    11.35                8.0        O'Neil Pass Trail
+59    11.02                1.0        Mount Misery
+60    11.01                2.0        South Fork Silver Creek Trail
+61    10.89                1.0        East Fork Pasayten
+62    10.81                1.0        Eightmile
+63    10.78                11.0       Lewis and Clark
+64    10.65                1.0        Bald Eagle
+65    10.65                1.0        Emerald Park
+66    10.62                12.0       Long Ridge Trail
+67    10.52                5.0        Six Ridge Primitive Trail
+68    10.45                5.0        Main Fork Dosewallips River Trail
+69    10.44                1.0        Thunder - Park Creek
+70    10.41                1.0        Wildhorse Creek
+71    10.33                6.0        Gray Wolf River Trail
+72    10.31                2.0        Nason Ridge
+73    10.18                1.0        Mount Aix
+74    10.17                1.0        Chiwaukum Creek
+75    9.95                 1.0        Wolf Creek
+76    9.86                 3.0        Hayden Pass Trail
+77    9.80                 3.0        Lakeshore
+78    9.78                 1.0        Lilly Basin
+79    9.74                 2.0        Clackamas Mountain
+80    9.52                 2.0        USFS#768
+81    9.44                 1.0        Jack Creek
+82    9.35                 3.0        Milton Mountain
+83    9.17                 1.0        Ironstone Mountain
+84    9.13                 2.0        Tatoosh Buttes
+85    9.10                 2.0        Castle Mountain
+86    9.08                 2.0        Windy Peak
+87    9.08                 2.0        USFS#657.01
+88    8.99                 2.0        Garland Peak
+89    8.98                 1.0        Pilot Ridge
+90    8.97                 1.0        Rainbow Lake
+91    8.89                 1.0        Duncan Hill
+92    8.79                 5.0        USFS#789
+93    8.77                 1.0        Crow Lake Way
+94    8.67                 3.0        Chain Lakes
+95    8.67                 2.0        Ptarmigan Ridge
+96    8.50                 1.0        Tumwater
+97    8.49                 1.0        Fisher Creek
+98    8.38                 1.0        Devore Creek
+99    8.34                 3.0        Goat Creek
+100   8.28                 7.0        West Fork Dosewallips River Trail
+101   8.25                 2.0        USFS#643.02
+102   8.22                 1.0        Snowall-Cradle Lake
+103   8.16                 2.0        Coyote
+104   8.11                 1.0        Pratt River Trail
+105   8.04                 1.0        Lakes
+106   7.95                 5.0        Kettle Crest North
+107   7.91                 1.0        Horton Butte
+108   7.87                 1.0        Cedar Creek
+109   7.86                 5.0        Skyline Primitive Trail
+110   7.79                 2.0        Shedroof Divide Trail
+111   7.79                 2.0        Summit Trail ORV
+112   7.74                 3.0        Falls Creek
+113   7.73                 3.0        West Fork Agnes Creek
+114   7.72                 2.0        Snow Lakes
+115   7.72                 1.0        War Creek
+116   7.67                 2.0        Panther Creek
+117   7.67                 1.0        Pugh Ridge
+118   7.60                 1.0        Richmond Mine
+119   7.56                 3.0        Albert Camp
+120   7.41                 3.0        Whistler Canyon
+121   7.39                 1.0        Fish Creek
+122   7.39                 3.0        Constance Pass Trail
+123   7.34                 2.0        Eightmile-Trout Creek
+124   7.31                 9.0        Appleton Pass Trail
+125   7.27                 1.0        Little Andrews
+126   7.27                 1.0        Prince Creek Wilderness
+127   7.26                 1.0        Oval Creek
+128   7.25                 4.0        Mad River (Upper)
+129   7.22                 2.0        North Fork Twentymile
+130   7.22                 1.0        Oval Peak
+131   7.19                 4.0        South Snyder-Jackson Primitive Trail
+132   7.16                 2.0        Hannegan
+133   7.09                 5.0        Happy Lake Ridge Trail
+134   7.06                 1.0        Middle Fork Teanaway
+135   7.04                 3.0        Cameron Creek Trail
+136   7.04                 1.0        Martin Creek
+137   7.03                 1.0        French Ridge
+138   7.02                 1.0        Snoqualmie Lake Trail
+139   6.97                 2.0        Quartz Creek
+140   6.97                 1.0        East Fork Prince Creek
+141   6.92                 1.0        Fourth Creek
+142   6.89                 2.0        Big Creek Trail
+143   6.87                 1.0        Buck Creek
+144   6.87                 1.0        Diamond Jack
+145   6.83                 4.0        Lake Clarice #1066 Trail
+146   6.83                 1.0        Peepsight
+147   6.81                 8.0        Aurora Ridge Trail
+148   6.81                 1.0        East Butte Creek
+149   6.80                 1.0        N. Fork Skykomish # 1051
+150   6.73                 1.0        Crystal Lake
+151   6.71                 1.0        Old Gib
+152   6.69                 1.0        Devil's Gulch ORV
+153   6.68                 1.0        Yellow Hill
+154   6.67                 1.0        North Fork Sauk
+155   6.65                 1.0        South Creek
+156   6.62                 1.0        Waptus River
+157   6.55                 1.0        West Fork Buttermilk
+158   6.51                 2.0        USFS#791
+159   6.48                 2.0        Butte Creek
+160   6.43                 13.0       High Divide Trail
+161   6.41                 1.0        West Fork Methow
+162   6.41                 2.0        North Fork Bridge Creek
+163   6.35                 1.0        Twisp Pass
+164   6.32                 6.0        Sol Duc River Trail
+165   6.23                 4.0        Hoh Lake Trail
+166   6.23                 3.0        Sand Ridge
+167   6.21                 2.0        Lease Creek
+168   6.21                 1.0        Necklace Valley #1062 Trail
+169   6.21                 1.0        Clearwater
+170   6.19                 1.0        Eagle Creek
+171   6.09                 1.0        North Fork
+172   6.07                 2.0        Tyee Ridge
+173   6.03                 3.0        Aurora Ridge Primitive Trail
+174   5.98                 1.0        Smarty Creek
+175   5.91                 2.0        Round The Mountain
+176   5.89                 1.0        First Creek
+177   5.88                 1.0        Nelson Ridge
+178   5.88                 1.0        Dutch Miller Gap Trail
+179   5.82                 1.0        Tungsten
+180   5.82                 2.0        Clear Fork
+181   5.81                 1.0        High Divide
+182   5.80                 1.0        Tubal Cain
+183   5.75                 1.0        Phelps Creek
+184   5.68                 4.0        USFS#643.01
+185   5.67                 1.0        Blue Buck
+186   5.67                 1.0        Upper Lake Creek
+187   5.67                 1.0        Long Draw
+188   5.64                 1.0        Little Giant
+189   5.60                 1.0        Meadow Creek Trail
+190   5.59                 2.0        Stub Creek
+191   5.55                 4.0        Lacrosse Pass Trail
+192   5.53                 1.0        Chilliwack North
+193   5.53                 2.0        Meadow Creek
+194   5.52                 1.0        Basin Creek
+195   5.50                 1.0        Spray-Seattle Park
+196   5.46                 1.0        North Fork Creek Trail
+197   5.42                 1.0        Waptus Pass
+198   5.40                 2.0        Bumping Lake
+199   5.37                 5.0        Royal Basin Trail
+200   5.30                 1.0        Lake Michael
+201   5.29                 3.0        Sourdough
+202   5.25                 1.0        USFS#797
+203   5.24                 1.0        Blackjack Ridge
+204   5.18                 2.0        Brush Creek
+205   5.14                 5.0        USFS#1256
+206   5.13                 1.0        USFS#607
+207   5.13                 1.0        Little Wenatchee River
+208   5.12                 1.0        South Fork Cascade River
+209   5.12                 1.0        Reynolds Creek
+210   5.09                 2.0        Flume Creek Trail
+211   4.97                 2.0        Huckleberry Creek
+212   4.95                 1.0        Square Lake
+213   4.92                 1.0        High Line
+214   4.89                 2.0        Devils Backbone
+215   4.89                 2.0        Laughingwater Creek
+216   4.89                 1.0        Beverly Turnpike
+217   4.88                 1.0        Sherry Grade
+218   4.86                 1.0        Copper Pass
+219   4.85                 1.0        Pot Peak
+220   4.85                 2.0        Tunnel Creek
+221   4.84                 1.0        Hindoo
+222   4.84                 1.0        Pomas Creek
+223   4.81                 1.0        S Fork Tieton
+224   4.81                 2.0        Hozemeen
+225   4.81                 3.0        Obstruction Point-Deer Park Trail
+226   4.81                 1.0        Tatoosh
+227   4.80                 3.0        W. Fork Foss #1064 Trail
+228   4.76                 1.0        Rainbow Creek
+229   4.76                 2.0        West Fork Teanaway
+230   4.74                 1.0        McAlester Lake
+231   4.73                 3.0        Wildcat
+232   4.72                 2.0        Cady Pass
+233   4.70                 1.0        Wenatchee
+234   4.69                 1.0        West Butte
+235   4.67                 1.0        Rattlesnake Peaks
+236   4.66                 1.0        4th Of July Ridge
+237   4.62                 1.0        Eagle Lakes
+238   4.61                 1.0        Bryan Butte
+239   4.59                 2.0        Goat Mountain
+240   4.59                 2.0        Colonel Bob Trail
+241   4.58                 2.0        Dodger Point Primitive Trail
+242   4.58                 4.0        Bald Ridge
+243   4.58                 1.0        Little Bridge
+244   4.57                 1.0        Trail Creek
+245   4.55                 1.0        W. Cady Ridge # 1054
+246   4.53                 2.0        Koppen Mtn
+247   4.53                 1.0        Union Creek
+248   4.53                 1.0        Dingford Creek Trail
+249   4.51                 1.0        Painter Creek
+250   4.47                 2.0        Sheep Lake
+251   4.45                 1.0        Foggy Dew Ridge
+252   4.43                 2.0        North Fork Chiwaukum
+253   4.43                 1.0        North Tommy
+254   4.38                 1.0        Kincaid
+255   4.37                 2.0        Graves Creek Primitive Trail
+256   4.36                 2.0        Mission Ridge
+257   4.36                 2.0        Willow Lake
+258   4.36                 2.0        West Shore
+259   4.34                 1.0        Owyhigh Lakes
+260   4.33                 2.0        Toni Basin
+261   4.33                 1.0        45 Mile Drive
+262   4.31                 1.0        Miner's Ridge
+263   4.30                 4.0        Coldwater Peak
+264   4.30                 2.0        Packer's
+265   4.26                 1.0        Prince Creek
+266   4.26                 1.0        Blue Creek
+267   4.25                 1.0        Cascade Pass
+268   4.24                 2.0        Mt Defiance Trail
+269   4.24                 3.0        North Snyder-Jackson Trail
+270   4.21                 1.0        Deception Creek #1059 Trail
+271   4.20                 3.0        Kettle Crest South
+272   4.20                 1.0        USFS#1239
+273   4.19                 1.0        Kettle Creeek
+274   4.18                 1.0        Southern Bailey Range
+275   4.13                 1.0        Spanish Creek
+276   4.13                 1.0        Fire Creek
+277   4.13                 1.0        Pond Camp
+278   4.13                 1.0        Ice Creek
+279   4.11                 1.0        Buck Ridge
+280   4.10                 1.0        Carbon
+281   4.10                 3.0        Little River Trail
+282   4.07                 1.0        Angry Mountain
+283   4.05                 1.0        Cool Creek
+284   4.04                 2.0        Uno Peak
+285   4.02                 1.0        Purple Creek
+286   4.01                 1.0        Snowgrass
+287   3.99                 1.0        Gold Creek
+288   3.99                 1.0        Three Creeks
+289   3.98                 1.0        Kautz Creek
+290   3.97                 1.0        Upper Big Quilcene Trail
+291   3.96                 1.0        Packwood Lake
+292   3.94                 2.0        Cowlitz
+293   3.94                 1.0        North Creek
+294   3.94                 2.0        South Fork Skokomish River Trail
+295   3.93                 2.0        Elip Creek Trail
+296   3.93                 1.0        Domerie Peak
+297   3.89                 2.0        Shellrock Peak
+298   3.87                 1.0        Middle Tommy
+299   3.85                 1.0        South Fork Slate
+300   3.85                 1.0        Fifes Ridge
+301   3.84                 1.0        Melton Fork
+302   3.82                 2.0        Flapjack Lakes Trail
+303   3.82                 1.0        Mesatchee Creek
+304   3.81                 1.0        Sawtooth
+305   3.80                 1.0        High Lakes Trail
+306   3.79                 1.0        Paradise Ridge
+307   3.78                 1.0        Beaver Creek
+308   3.77                 1.0        Desolation
+309   3.75                 3.0        North Fork Sol Duc Trail
+310   3.74                 1.0        Hart & Lyman Lake
+311   3.73                 2.0        USFS#645
+312   3.73                 3.0        USFS#641
+313   3.72                 1.0        Lake Ridge
+314   3.72                 1.0        Indianhead Basin
+315   3.71                 2.0        USFS#795
+316   3.71                 1.0        Pear Butte
+317   3.71                 1.0        South Twentymile
+318   3.70                 1.0        Clear Lost
+319   3.67                 1.0        Cady Ridge
+320   3.67                 2.0        Huffman Peak
+321   3.66                 1.0        Mt. Jupiter
+322   3.66                 1.0        Jack Ridge
+323   3.66                 1.0        Shellrock
+324   3.61                 1.0        Tiffany Lake
+325   3.61                 1.0        USFS#603.1
+326   3.59                 1.0        Shellrock Lake
+327   3.58                 1.0        Pearrygin Creek
+328   3.58                 1.0        Elk Flat - Wash
+329   3.56                 1.0        Stafford Creek
+330   3.56                 1.0        Bear Creek Mountain
+331   3.55                 1.0        Melton Creek
+332   3.54                 1.0        Standup
+333   3.52                 1.0        Top Lake
+334   3.51                 1.0        Cutthroat Pass
+335   3.49                 1.0        Kaleetan Lake Trail
+336   3.49                 1.0        Summer Blossom
+337   3.48                 1.0        Lightning Creek
+338   3.48                 1.0        Windy Creek
+339   3.47                 1.0        Cady Creek
+340   3.47                 1.0        Quartz Mountain
+341   3.46                 1.0        Patterson Ridge
+342   3.46                 2.0        Red Mountain
+343   3.43                 1.0        Salmo Basin Trail
+344   3.43                 1.0        Elliot Creek
+345   3.42                 1.0        Spade Lake
+346   3.41                 1.0        Pass Creek
+347   3.41                 1.0        Foggy Dew (Section 1)
+348   3.40                 1.0        Intake/Deadman Peak
+349   3.40                 1.0        1143
+350   3.39                 2.0        High Pass
+351   3.38                 1.0        Nooksack Cirque
+352   3.37                 1.0        Polallie Ridge
+353   3.37                 1.0        N Fork Tieton
+354   3.35                 1.0        Heather Creek Trail
+355   3.35                 1.0        Stetattle Creek
+356   3.33                 4.0        USFS#610
+357   3.32                 1.0        Chiwawa River
+358   3.32                 1.0        USFS#654.01
+359   3.32                 1.0        Muddy Meadows
+360   3.30                 1.0        Red Bluff Trail
+361   3.29                 3.0        Canyon Creek
+362   3.29                 3.0        Goat Lake
+363   3.28                 1.0        Tumac
+364   3.28                 3.0        Cameron Pass Primitive Trail
+365   3.28                 5.0        Grand Pass Trail
+366   3.28                 1.0        Stuart Lake
+367   3.27                 1.0        North Summit
+368   3.27                 2.0        Upper Lena Lake Trail
+369   3.27                 1.0        Goat Ridge
+370   3.26                 2.0        Leland Creek
+371   3.25                 1.0        Arch Rock
+372   3.25                 1.0        Jug Lake
+373   3.24                 1.0        Mineral Creek
+374   3.24                 2.0        July Ridge
+375   3.23                 1.0        Bluff Lake
+376   3.23                 1.0        Mount David
+377   3.22                 1.0        Splawn
+378   3.21                 1.0        Boulder Lake
+379   3.20                 1.0        Cow Creek Meadows
+380   3.19                 1.0        Chatter Creek
+381   3.18                 1.0        Rachel Lake
+382   3.18                 1.0        Riley Camp
+383   3.17                 1.0        Little Divide Trail
+384   3.17                 1.0        Chuchuwanteen
+385   3.16                 1.0        Gray Wolf Pass Trail
+386   3.15                 1.0        Monument 83
+387   3.15                 1.0        Badlands
+388   3.15                 1.0        Pratt Lake Trail
+389   3.09                 1.0        Grizzly Bear Ridge
+390   3.09                 1.0        Panjab
+391   3.08                 1.0        Dean Creek
+392   3.06                 1.0        North Fork Fish Creek
+393   3.06                 1.0        Hatchery Creek
+394   3.04                 3.0        South Fork Taneum
+395   3.04                 2.0        Twin Lakes
+396   3.00                 1.0        Louis Lake
+397   2.99                 1.0        Pyramid Creek
+398   2.99                 1.0        Cougar Valley
+399   2.97                 1.0        Easy Pass
+400   2.96                 2.0        Elwha To Hurricane Hill Trail
+401   2.95                 1.0        Bear Creek
+402   2.94                 1.0        Swamp Lake
+403   2.94                 3.0        Grand Valley Trail
+404   2.92                 1.0        Tieton Meadows
+405   2.92                 1.0        Jordan Creek
+406   2.91                 2.0        USFS#785
+407   2.90                 2.0        Badger Valley Trail
+408   2.90                 1.0        Lorraine Ridge
+409   2.90                 1.0        3213
+410   2.88                 3.0        Heather Park Trail
+411   2.86                 2.0        Libby Creek
+412   2.86                 1.0        Cramer Lake
+413   2.85                 1.0        Jolly Creek
+414   2.84                 1.0        USFS#780
+415   2.84                 1.0        Pacific Crest Bypass
+416   2.83                 1.0        Crater Mountain
+417   2.83                 1.0        Clark Ridge
+418   2.82                 1.0        Weller Butte
+419   2.81                 1.0        Red Hill ORV
+420   2.81                 1.0        Slate Lake
+421   2.80                 1.0        Pyramid View Point
+422   2.79                 1.0        Hannegan Pass
+423   2.77                 1.0        Melakwa Lake Trail
+424   2.75                 2.0        Summit Prairie
+425   2.75                 1.0        Moore Mountain
+426   2.75                 1.0        Skookum Basin
+427   2.75                 1.0        Barnes Creek Primitive Trail
+428   2.74                 2.0        Boulder Lake Trail
+429   2.73                 2.0        USFS#657
+430   2.73                 3.0        Basalt Ridge
+431   2.72                 1.0        Green River
+432   2.72                 2.0        Canyon Ridge
+433   2.71                 1.0        North Ridge
+434   2.71                 1.0        South Fork War Creek
+435   2.70                 1.0        Walupt Lake
+436   2.70                 1.0        Pete Lake
+437   2.69                 2.0        Trout Creek
+438   2.69                 1.0        North Fork Asotin Creek
+439   2.68                 1.0        Butte Camp
+440   2.67                 1.0        Silesia Creek
+441   2.66                 1.0        Observation
+442   2.65                 4.0        Shriner Peak
+443   2.64                 1.0        Stiletto Peak
+444   2.61                 1.0        East Fork Buttermilk
+445   2.61                 1.0        Billy Goat
+446   2.61                 2.0        Lost Lake
+447   2.60                 1.0        Goose Prairie
+448   2.60                 1.0        Golden Stairway
+449   2.59                 1.0        Glacier Creek
+450   2.59                 1.0        Lake Dorothy #1072 Trail
+451   2.58                 2.0        Barnes Creek Trail
+452   2.58                 1.0        Middle Fork Cascade River
+453   2.58                 1.0        Quartz Creek Trail
+454   2.57                 1.0        Chilliwack
+455   2.57                 1.0        North Star Basin Traverse
+456   2.57                 1.0        Index Creek
+457   2.57                 1.0        Burroughs Mtn
+458   2.57                 2.0        Lena Lake Trail
+459   2.57                 2.0        Hoodoo Pass
+460   2.56                 1.0        Lake Ann
+461   2.55                 1.0        Lake Eleanor
+462   2.55                 2.0        Siouxon
+463   2.54                 1.0        Lillian River Trail
+464   2.53                 3.0        Wolf Creek Trail
+465   2.53                 1.0        Grassy Point
+466   2.53                 1.0        Park Pass
+467   2.52                 3.0        Juniper Ridge
+468   2.52                 1.0        Miller Peak
+469   2.52                 1.0        Mirror Lake
+470   2.51                 1.0        Tomyhoi Peak
+471   2.51                 2.0        Kachess Ridge
+472   2.50                 2.0        Three Forks Trail
+473   2.50                 1.0        Middle Mountain Trail
+474   2.50                 1.0        North Fork Sol Duc Primitive Trail
+475   2.50                 2.0        Glacier View Loop
+476   2.48                 1.0        Nannie Ridge
+477   2.48                 1.0        Crater Creek
+478   2.48                 1.0        Bailey Range Way Trail
+479   2.46                 3.0        Home-Sweet-Home Trail
+480   2.46                 1.0        Yearling Ridge
+481   2.46                 1.0        Surprise Creek #1060 Trail
+482   2.46                 1.0        Pear Loop
+483   2.45                 1.0        South Tommy
+484   2.45                 1.0        Bare Mountain Trail
+485   2.44                 1.0        Cougar Mountain
+486   2.43                 1.0        Holden Lake
+487   2.42                 1.0        Frog Mountain
+488   2.41                 1.0        Lennox Creek Trail
+489   2.40                 1.0        Larch Lakes
+490   2.39                 1.0        Colchuck Lake
+491   2.39                 1.0        Timber Ridge
+492   2.39                 1.0        Cascade Creek
+493   2.35                 3.0        Langille Ridge
+494   2.35                 1.0        Angle Peak
+495   2.33                 1.0        Foggy Dew (Section 2)
+496   2.33                 1.0        Stagman Ridge
+497   2.32                 1.0        Williams Lake
+498   2.32                 1.0        Driveway Butte
+499   2.31                 1.0        Skyline Divide
+500   2.31                 2.0        The Brothers Trail
+501   2.31                 1.0        Burnt Mountain
+502   2.29                 4.0        County Line
+503   2.29                 1.0        The Parks
+504   2.29                 1.0        Shetipo
+505   2.29                 4.0        USFS#603
+506   2.29                 2.0        Bogachiel River South Bank Trail
+507   2.28                 5.0        Cat Basin Primitive Trail
+508   2.27                 1.0        Beauty Creek
+509   2.27                 1.0        Johnson Ridge
+510   2.26                 1.0        St Andrews Creek
+511   2.26                 1.0        Denny Creek Trail
+512   2.25                 1.0        USFS#635
+513   2.25                 1.0        Silver Lakes
+514   2.25                 2.0        Martins Park Primitive Trail
+515   2.25                 2.0        National Park Trail
+516   2.24                 1.0        Cowlitz Divide
+517   2.24                 2.0        Glacier Basin
+518   2.21                 1.0        Mccall Gulch
+519   2.20                 2.0        Heather Lake
+520   2.20                 1.0        Halliday Trail
+521   2.19                 1.0        Spider Gap
+522   2.18                 1.0        North Fork Prince Creek
+523   2.18                 1.0        Mjb
+524   2.18                 1.0        Swamp Creek
+525   2.18                 1.0        Little Beaver West
+526   2.17                 2.0        Eagle Pass
+527   2.17                 1.0        Chelan Summit
+528   2.16                 3.0        Cape Alava Trail
+529   2.16                 1.0        Lone Peak
+530   2.16                 1.0        Raven Roost
+531   2.14                 1.0        Kelly Butte Trail
+532   2.14                 1.0        Truman
+533   2.14                 2.0        Greider Lake
+534   2.13                 1.0        Maple Pass
+535   2.13                 1.0        Old Stage
+536   2.12                 2.0        Slate Pass
+537   2.11                 2.0        USFS#743.0501
+538   2.09                 1.0        Jimmy Creek
+539   2.09                 1.0        Whistler
+540   2.09                 1.0        USFS#627
+541   2.07                 1.0        Silver Creek
+542   2.06                 1.0        Danger Point
+543   2.05                 1.0        War Creek Ridge
+544   2.04                 1.0        Etienne Creek
+545   2.03                 1.0        USFS#1259
+546   2.03                 2.0        Bluff Mountain
+547   2.02                 1.0        Varden Lake
+548   2.01                 1.0        Rock Creek Tie
+549   2.01                 1.0        Clutch Creek
+550   2.00                 1.0        Nordrum Lake Trail
+551   2.00                 1.0        Eightmile Lake
+552   2.00                 2.0        South Fork Hoh River Trail
+553   1.99                 1.0        Dusty Ridge
+554   1.98                 1.0        Perry Creek
+555   1.98                 1.0        Surprise Lake
+556   1.98                 1.0        13 Mile
+557   1.98                 1.0        Solomon Creek Trail
+558   1.96                 2.0        USFS#798
+559   1.96                 2.0        USFS#603.32
+560   1.95                 1.0        Scatter Creek
+561   1.95                 1.0        USFS#763
+562   1.95                 1.0        Sand Point Trail
+563   1.95                 3.0        Mink Lake Trail
+564   1.95                 1.0        Mildred Lakes
+565   1.95                 2.0        North Fork Entiat River
+566   1.94                 1.0        Lemei
+567   1.94                 1.0        Turkey Creek
+568   1.94                 3.0        Patos Island Trails
+569   1.93                 1.0        Greek Creek Basin
+570   1.91                 1.0        Whittier Ridge
+571   1.91                 1.0        Thornton Lakes
+572   1.90                 1.0        Twin Sisters
+573   1.89                 1.0        Grizzly Bear
+574   1.89                 1.0        USFS#613
+575   1.88                 2.0        Greider Boulder Mainline
+576   1.88                 1.0        Little Jack
+577   1.87                 1.0        Panther Spur
+578   1.86                 1.0        Cedar Lake Primitive Trail
+579   1.86                 1.0        Thomas Lake
+580   1.86                 1.0        Ericsons Bay Primitive Trail
+581   1.86                 1.0        Lemei Lake
+582   1.85                 1.0        Chickamin Lake
+583   1.85                 1.0        Black And White Lakes Primitive Trail
+584   1.85                 1.0        Jungle Creek
+585   1.85                 1.0        Drake Creek
+586   1.84                 1.0        Anthem Creek
+587   1.84                 3.0        Smith Lake Primitive Trail
+588   1.84                 1.0        Eagle Lake
+589   1.83                 1.0        Beaver Meadows
+590   1.83                 1.0        Happy Hollow Trail
+591   1.83                 1.0        Waptus Burn
+592   1.83                 1.0        Rainbow Loop Trail
+593   1.82                 1.0        Basin
+594   1.82                 1.0        Purcell Mountain
+595   1.82                 1.0        Hidden Springs
+596   1.80                 1.0        Wilson Creek
+597   1.80                 1.0        Humes Glacier
+598   1.78                 1.0        Fire
+599   1.78                 1.0        Griffin Peak
+600   1.77                 1.0        Slate Creek Trail
+601   1.76                 1.0        North Puyallup
+602   1.76                 1.0        USFS#743.1
+603   1.75                 1.0        Monitor Ridge
+604   1.75                 1.0        Palisades Lakes
+605   1.75                 1.0        Maple Ridge
+606   1.74                 3.0        Hilltop
+607   1.74                 1.0        Dosewallips Closed Road
+608   1.74                 2.0        Cameron-Lost Primitive Trail
+609   1.73                 1.0        3214
+610   1.73                 1.0        Klonaqua Lakes
+611   1.72                 1.0        Bean Creek
+612   1.72                 1.0        Halsey Butte
+613   1.72                 1.0        Short and Dirty
+614   1.70                 1.0        Blizzard Peak
+615   1.70                 8.0        Humes Ranch Loop Trail
+616   1.69                 1.0        Honeymoon Pass
+617   1.69                 1.0        Reynolds Peak
+618   1.69                 1.0        Holman Creek
+619   1.69                 3.0        Walt Bailey
+620   1.68                 1.0        Johnson Medra
+621   1.67                 2.0        Schaefer Lake
+622   1.67                 1.0        Tin Shacktie Through
+623   1.67                 1.0        Mcallister
+624   1.67                 2.0        Indian Heaven
+625   1.66                 1.0        Mt. Townsend
+626   1.66                 1.0        Cortright Creek
+627   1.65                 2.0        USFS#606
+628   1.64                 1.0        Sasse Mountain
+629   1.64                 3.0        Snowy Creek
+630   1.64                 1.0        Bernice Lake
+631   1.64                 3.0        Tucannon River
+632   1.63                 1.0        Strawberry Mountain
+633   1.63                 1.0        Mt Olson Way
+634   1.63                 1.0        South Climb
+635   1.62                 1.0        Navarre Way
+636   1.62                 3.0        Four Mile Ridge
+637   1.61                 2.0        Lake Constance Primitive Trail
+638   1.60                 1.0        Judkin
+639   1.60                 1.0        USFS#697.02
+640   1.60                 1.0        Windy Ridge
+641   1.59                 1.0        Marten Creek
+642   1.59                 1.0        Sprial Butte
+643   1.57                 1.0        Stilleto Spur
+644   1.56                 1.0        Dog Creek
+645   1.56                 1.0        Lake Vicente
+646   1.56                 1.0        Sloan Peak
+647   1.55                 3.0        USFS#646
+648   1.55                 1.0        Oval Lakes
+649   1.54                 2.0        Abercrombie Trail
+650   1.54                 2.0        Round Mountain
+651   1.52                 4.0        USFS#640.1
+652   1.52                 1.0        Copper Basin
+653   1.52                 3.0        Sundown Lake Trail
+654   1.51                 1.0        Three Peaks
+655   1.51                 1.0        Pleasant Valley Lake
+656   1.50                 1.0        Rock Creek Trail
+657   1.49                 1.0        Heliotrope Ridge
+658   1.49                 1.0        USFS#605
+659   1.49                 1.0        Ice Lakes
+660   1.48                 1.0        Deep Saddle
+661   1.48                 3.0        Putvin Primitive Trail
+662   1.48                 1.0        Deer Park
+663   1.48                 1.0        Thunder Creek Trail
+664   1.48                 1.0        Pacific Crest Trail
+665   1.47                 3.0        Lake Angeles Trail
+666   1.47                 1.0        Deer Lake Trail
+667   1.47                 2.0        USFS#745
+668   1.46                 1.0        Shoe Lake
+669   1.46                 1.0        (x)
+670   1.46                 2.0        Gray Wolf - Lower Trail
+671   1.45                 1.0        Holden Pass
+672   1.45                 2.0        Boulder De Roux
+673   1.43                 6.0        Geyser Valley Trail
+674   1.43                 4.0        Spectacle Lake
+675   1.43                 1.0        Hester Lake Trail
+676   1.42                 2.0        Morgeroth Lake Way
+677   1.42                 1.0        Lyman Ridge
+678   1.42                 1.0        Cougar Divide
+679   1.42                 1.0        Wells Creek
+680   1.41                 3.0        Boulder Hot Springs Trail
+681   1.41                 1.0        Horseshoe Basin
+682   1.41                 2.0        Trapper Creek
+683   1.40                 2.0        Ingalls Way
+684   1.39                 3.0        USFS#785.2
+685   1.39                 1.0        Lookout Ridge
+686   1.38                 1.0        Flat Creek
+687   1.38                 1.0        Mount Clifty
+688   1.38                 4.0        Goodman Creek Trail
+689   1.36                 1.0        Nile Ridge
+690   1.36                 1.0        Fourth Of July
+691   1.35                 1.0        Church Mountain
+692   1.34                 1.0        Dole Lakes
+693   1.33                 1.0        Jungle Hill
+694   1.33                 1.0        Davis Peak
+695   1.32                 1.0        Pasayten Drive
+696   1.32                 1.0        Riley South
+697   1.32                 1.0        Chinook Creek
+698   1.32                 1.0        Dumbbell Lake
+699   1.31                 5.0        Billy Creek
+700   1.31                 1.0        Soda Spring
+701   1.31                 1.0        Pot Hole
+702   1.31                 3.0        Gobblers Knob
+703   1.30                 1.0        Divide Camp
+704   1.29                 1.0        Fish Eagle Pass
+705   1.29                 1.0        Midnight Ridge
+706   1.27                 2.0        Granite Mountain
+707   1.27                 1.0        Hoh Head Trail
+708   1.26                 1.0        Commonwealth Basin Trail
+709   1.26                 1.0        Tokaloo
+710   1.26                 1.0        Shorthorn
+711   1.25                 2.0        Round Lake
+712   1.24                 1.0        Killen Creek
+713   1.24                 1.0        Mt. Rose
+714   1.24                 3.0        Gladys Divide Primitive Trail
+715   1.23                 1.0        Cle Elum Ridge
+716   1.23                 1.0        Indian Tom
+717   1.23                 1.0        USFS#696
+718   1.22                 1.0        Hard To Get To Ridge
+719   1.21                 1.0        Van Epps
+720   1.21                 1.0        Fisher Lake #1058.1 Trail
+721   1.21                 1.0        Paradise Creek
+722   1.21                 1.0        Upper Roaring Creek
+723   1.20                 1.0        Three Brothers Mountain
+724   1.20                 1.0        Clearwest Peak
+725   1.19                 1.0        Bedal Creek
+726   1.19                 1.0        Horseshoe Ridge
+727   1.19                 1.0        Frost Mountain
+728   1.18                 1.0        East Crater
+729   1.17                 1.0        Marcus
+730   1.16                 1.0        Weden Creek
+731   1.16                 1.0        Surprise Mt. #1063 Trail
+732   1.16                 1.0        Louisiana Saddle
+733   1.15                 1.0        Iron Bear
+734   1.14                 1.0        Matia Island Trails
+735   1.14                 1.0        Two Point
+736   1.14                 1.0        Leroy Creek High Route
+737   1.14                 1.0        Snipes Mountain
+738   1.14                 1.0        Tull Canyon Trail
+739   1.14                 1.0        Boundary Way
+740   1.13                 2.0        West Side Road
+741   1.12                 1.0        Cathedral Driveway
+742   1.11                 2.0        Paradise Meadows
+743   1.11                 1.0        Sunrise Lake
+744   1.11                 1.0        Hunters
+745   1.11                 1.0        Blanca Lake
+746   1.10                 1.0        Escondido Lake
+747   1.09                 1.0        Crown Mine
+748   1.09                 1.0        Tomyhoi Lake
+749   1.09                 1.0        Iron Peak
+750   1.09                 1.0        Trail 1161
+751   1.08                 1.0        Barnaby Buttes
+752   1.08                 1.0        Fletcher Canyon
+753   1.07                 1.0        Bypass
+754   1.07                 1.0        Cathedral Pass
+755   1.07                 1.0        Big Hollow
+756   1.06                 2.0        Sleepy Hollow
+757   1.06                 1.0        Upper Ingalls Way
+758   1.05                 1.0        North Scatter Creek
+759   1.05                 1.0        Deroux Spur
+760   1.05                 1.0        Sherlock Peak Trail
+761   1.05                 1.0        Marten Lake Trail
+762   1.04                 1.0        Dosewallips River Trail
+763   1.04                 1.0        Northern Loop Trail
+764   1.04                 1.0        Fern Lake
+765   1.03                 2.0        County Trail
+766   1.03                 1.0        Blue Lake
+767   1.03                 2.0        Dosewallips Terrace Nature Trail
+768   1.02                 1.0        Cloudy Peak Route
+769   1.02                 1.0        Aurora Creek Primitive Trail
+770   1.01                 1.0        Corral Lake
+771   1.01                 1.0        William O Douglas
+772   1.01                 1.0        Angel Staircase
+773   1.00                 1.0        Big Lick
+774   1.00                 1.0        South Point Lookout
+775   0.99                 2.0        Manastash Ridge-west
+776   0.99                 3.0        State Government Trail
+777   0.99                 1.0        Fourth Of July Basin
+778   0.99                 1.0        Longs Pass
+779   0.98                 1.0        South Fork Wolf Creek
+780   0.98                 1.0        Sedum Ridge
+781   0.98                 1.0        Domke Mountain Lookout
+782   0.98                 1.0        Freezeout Ridge
+783   0.97                 1.0        Glasses Lake
+784   0.97                 1.0        Sunshine
+785   0.97                 1.0        Paris Creek
+786   0.96                 3.0        Jones Island Trails
+787   0.96                 1.0        Grace Lakes
+788   0.96                 1.0        Lila Lake
+789   0.95                 1.0        South Puyallup
+790   0.95                 1.0        Cascade Camp
+791   0.95                 1.0        USFS#782
+792   0.94                 1.0        Crosby
+793   0.93                 1.0        Placid Lake
+794   0.93                 3.0        Comet Falls-Van Trump
+795   0.93                 1.0        Elk Mountain Trail
+796   0.91                 1.0        Dans Camp
+797   0.91                 1.0        Lower Mad River
+798   0.91                 1.0        Dutch Miller Gap
+799   0.90                 1.0        Williams Lake Trail
+800   0.89                 1.0        Crossover
+801   0.89                 1.0        Stickpin
+802   0.88                 1.0        USFS#603.2
+803   0.88                 1.0        Willaby Creek Trail
+804   0.88                 1.0        Bernhardt Mine
+805   0.87                 1.0        Trail 1166
+806   0.86                 1.0        Lake Ida-Icicle Creek
+807   0.86                 1.0        High Camp
+808   0.86                 1.0        Smith Lake
+809   0.85                 1.0        Rim
+810   0.85                 1.0        Edds Mountain
+811   0.85                 2.0        Lunch Lake Trail
+812   0.84                 2.0        Sheep Mountain
+813   0.84                 1.0        Looking Glass Lake
+814   0.83                 1.0        Craggy Peak
+815   0.83                 1.0        Wagonwheel Lake Trail
+816   0.82                 1.0        Lost Pass Primitive Trail
+817   0.82                 1.0        Agnes Gorge
+818   0.82                 1.0        Pompey Peak
+819   0.81                 1.0        Cooney Lake
+820   0.81                 1.0        Inter Glacier
+821   0.81                 1.0        Miners Ridge
+822   0.80                 1.0        Granite Mountain Trail
+823   0.80                 1.0        Lundeen
+824   0.80                 1.0        Lookout Creek
+825   0.79                 1.0        Independence Ridge
+826   0.79                 1.0        Harry's Ridge
+827   0.79                 1.0        Pasayten
+828   0.78                 1.0        Indian Pits
+829   0.78                 1.0        Hannegan Peak
+830   0.77                 1.0        Emmons Moraine Trail
+831   0.77                 1.0        Snow Lake Trail
+832   0.77                 2.0        Blue Glacier Primitive Trail
+833   0.77                 1.0        Blue Slide
+834   0.76                 1.0        Goat Peak
+835   0.76                 1.0        Bear Creek Mt Lookout
+836   0.76                 2.0        Leadbetter Point Trails
+837   0.76                 1.0        Damfino Lakes
+838   0.76                 1.0        Buck Lake
+839   0.75                 1.0        Sunrise Mine
+840   0.75                 1.0        Spray-Seattle Park Trail
+841   0.75                 1.0        Mt Carrie Way
+842   0.75                 1.0        Avalanche Canyon
+843   0.75                 1.0        Anderson Moraine Primitive Trail
+844   0.74                 1.0        Rubin Ridge
+845   0.74                 1.0        Pete's Creek Trail
+846   0.74                 1.0        North Fork Taneum
+847   0.74                 1.0        Sheep Canyon
+848   0.73                 1.0        Eagle Peak
+849   0.73                 1.0        Blue Lake High
+850   0.73                 1.0        Larch Lakes Spur
+851   0.72                 1.0        Copper Glance
+852   0.72                 1.0        Junction Camp Access
+853   0.72                 1.0        USFS#763.1
+854   0.72                 1.0        Crater
+855   0.72                 1.0        Ferguson Lake
+856   0.72                 2.0        Leona Loop
+857   0.71                 1.0        Oval Pass
+858   0.71                 1.0        Big Creek Falls
+859   0.71                 2.0        USFS#799.0502
+860   0.70                 1.0        USFS#657.2
+861   0.70                 1.0        Basin Lake
+862   0.70                 1.0        Alaska Lake
+863   0.70                 1.0        Sandy
+864   0.70                 1.0        Jolly Mountain Spur
+865   0.69                 1.0        Spruce Creek
+866   0.69                 1.0        Lake Beauty Primitive Trail
+867   0.69                 2.0        Tonga Ridge #1058 Trail
+868   0.68                 1.0        Long John
+869   0.68                 1.0        Lake Ethel
+870   0.68                 1.0        Hoodoo Spur
+871   0.67                 1.0        10 Mile Creek Wilderness
+872   0.67                 1.0        Barclay Lake
+873   0.67                 1.0        Lacrosse Basin Trail
+874   0.66                 1.0        Goat Ridge Lookout
+875   0.66                 4.0        Image Lake
+876   0.66                 3.0        West Wenatchee
+877   0.66                 1.0        Mirror Lakes
+878   0.65                 1.0        Weigle Hill
+879   0.65                 1.0        Azurite
+880   0.64                 1.0        Lower Eagle Lake
+881   0.64                 1.0        USFS#765.01
+882   0.64                 1.0        Lemah Meadow
+883   0.64                 1.0        Remmel Cutoff
+884   0.63                 1.0        Toutle
+885   0.63                 2.0        Soleduck Lake
+886   0.63                 2.0        Cougar Ridge
+887   0.62                 1.0        USFS#793
+888   0.61                 1.0        Yozoo
+889   0.61                 1.0        Bonaparte Mountain
+890   0.61                 1.0        Mitchell Peak Trail
+891   0.60                 2.0        Tombstone Lake
+892   0.60                 1.0        Lower Ingalls Way
+893   0.60                 1.0        USFS#657.1
+894   0.60                 1.0        Chickamin ORV Tie
+895   0.59                 1.0        USFS#765
+896   0.59                 1.0        Peggy's Pond
+897   0.59                 1.0        Safety Harbor Creek
+898   0.58                 2.0        Deep Lake
+899   0.58                 1.0        Marsh Lake
+900   0.58                 1.0        Mount Fremont
+901   0.57                 1.0        Rock Mountain
+902   0.57                 2.0        USFS#712
+903   0.57                 1.0        S.Huck2
+904   0.57                 1.0        Tatoosh Lookout
+905   0.56                 1.0        Elk Lake
+906   0.55                 1.0        Domke Lake Nrt
+907   0.55                 1.0        Bishop Ridge
+908   0.55                 1.0        Summit Lake Tie with Clearwater
+909   0.55                 2.0        USFS#734.01
+910   0.55                 1.0        Wiebe Pass
+911   0.55                 2.0        U.S. Mountain
+912   0.54                 1.0        USFS#656
+913   0.53                 1.0        Muckamuck
+914   0.53                 1.0        USFS#646.1
+915   0.53                 1.0        Dexter Ridge
+916   0.53                 1.0        Deception Lakes #1059.2 Trail
+917   0.51                 1.0        Russell Ridge
+918   0.51                 1.0        Tatoosh Lakes
+919   0.51                 1.0        USFS#611
+920   0.51                 1.0        Whatcom Spur
+921   0.51                 1.0        Backbone Lake
+922   0.51                 1.0        Goodenough Trail
+923   0.51                 1.0        McCall Basin
+924   0.50                 1.0        Observation Peak
+925   0.50                 1.0        Hidden Lake Spur
+926   0.50                 1.0        Deer Ridge Trail
+927   0.49                 1.0        Upper Eagle Lake
+928   0.49                 1.0        Elwha Basin Way Trail
+929   0.49                 1.0        Little Wenatchee Ridge
+930   0.49                 2.0        Independence Pass
+931   0.48                 1.0        Martin Lake
+932   0.47                 1.0        Shovel Lake View
+933   0.47                 1.0        Ludden Peak Way Trail
+934   0.47                 1.0        USFS#654
+935   0.47                 1.0        Carne Mountain
+936   0.47                 1.0        Kaner Flat
+937   0.47                 1.0        Waptus Horse Ford
+938   0.46                 1.0        Tumwater Peak
+939   0.46                 1.0        Sunday Lake Trail
+940   0.46                 1.0        Griff Creek Primitive Trail
+941   0.46                 1.0        Duncan Hill Viewpoint
+942   0.46                 1.0        Spencer Creek
+943   0.46                 2.0        Sunrise Lake Spur
+944   0.46                 1.0        Evergreen Lookout
+945   0.45                 1.0        North Lake
+946   0.45                 1.0        Indian Racetrack
+947   0.45                 1.0        McCue Ridge
+948   0.45                 1.0        Chair Lift
+949   0.45                 1.0        Deer Cutoff
+950   0.45                 1.0        USFS#638.01
+951   0.44                 1.0        Bearberry
+952   0.44                 1.0        Antoine
+953   0.44                 1.0        Happy Lake Trail
+954   0.44                 1.0        Blue Lake 3
+955   0.44                 1.0        Klone Peak
+956   0.43                 1.0        Mildred Point
+957   0.43                 1.0        Grouse Vista
+958   0.43                 1.0        Trap Pass #1060.1 Trail
+959   0.43                 1.0        Mcclure Rock
+960   0.42                 1.0        Mccoy Peak
+961   0.42                 1.0        Olallie Lake Trail
+962   0.41                 1.0        Paddy Go Easy Pass
+963   0.41                 1.0        Mt Constance
+964   0.41                 2.0        Salt Creek
+965   0.41                 2.0        Hurricane Hill Nature Trail
+966   0.40                 1.0        Hamma Hamma High
+967   0.39                 1.0        USFS#643
+968   0.39                 1.0        Ira Spring Trail
+969   0.39                 1.0        Myrtle Lake
+970   0.39                 1.0        Mt Dickerman
+971   0.37                 2.0        Lambert
+972   0.37                 2.0        Jeep Trail
+973   0.37                 1.0        South Esmerelda Peak
+974   0.36                 1.0        Mcallister Camp
+975   0.36                 1.0        Egg Lake Access
+976   0.36                 1.0        Island Lake Trail
+977   0.36                 1.0        Wolf Fork
+978   0.35                 1.0        Cablecar
+979   0.35                 1.0        Cougar Mountain Viewpoint
+980   0.35                 1.0        Northern Loop Spur
+981   0.34                 1.0        Rica Canyon Trail
+982   0.34                 1.0        USFS#667
+983   0.34                 1.0        Hart Lake
+984   0.34                 1.0        Terminus Primitive Trail
+985   0.34                 1.0        Eagle Lakes Trail
+986   0.33                 1.0        Mount Pilchuck Trails
+987   0.33                 1.0        Annette Lake Trail
+988   0.33                 1.0        Unknown
+989   0.33                 1.0        Nason Ridge Lookout Spur
+990   0.33                 1.0        Tillicum
+991   0.32                 1.0        Domerie Divide
+992   0.32                 1.0        Moonshine Lake
+993   0.32                 1.0        Vanson Peak
+994   0.31                 1.0        USFS#608
+995   0.30                 2.0        Grand Lake Trail
+996   0.30                 1.0        Wapiki
+997   0.30                 1.0        Kulla Kulla Lake Trail
+998   0.30                 1.0        Shortcut
+999   0.30                 1.0        Delate Meadow
+1000  0.29                 1.0        Buckhorn Lake
+1001  0.29                 1.0        Wapaloosie
+1002  0.28                 1.0        Deep Lake Camps
+1003  0.28                 1.0        Sheepherder Gap
+1004  0.28                 1.0        High Skyline
+1005  0.28                 1.0        Kachess Beacon
+1006  0.28                 1.0        Goat Peak Lookout
+1007  0.27                 1.0        Paul Peak
+1008  0.27                 1.0        Jumpoff
+1009  0.26                 1.0        Deer Lake Meadow Trail
+1010  0.26                 1.0        Way Creek
+1011  0.26                 1.0        Dry Creek Pass
+1012  0.26                 1.0        Horsehead Trail
+1013  0.26                 1.0        Van Trump Park
+1014  0.26                 1.0        Pebble Creek
+1015  0.25                 1.0        Squitch Lake
+1016  0.25                 1.0        Moore Rim
+1017  0.25                 1.0        Graham Harbor Creek
+1018  0.25                 1.0        Sugarloaf Trail
+1019  0.24                 2.0        Social
+1020  0.23                 1.0        Vanson Ridge
+1021  0.23                 1.0        Source Lake View Trail
+1022  0.22                 1.0        Deep Creek
+1023  0.22                 1.0        Oyster Lake Trail
+1024  0.22                 1.0        Shannon Ridge
+1025  0.22                 1.0        USFS#766
+1026  0.22                 1.0        Loch Eileen
+1027  0.22                 1.0        USFS#640.0502
+1028  0.21                 1.0        Mt Margaret
+1029  0.21                 1.0        Round Lake Trail
+1030  0.20                 1.0        Esmeralda Basin
+1031  0.19                 1.0        Dry Creek
+1032  0.19                 1.0        Tired Creek
+1033  0.19                 1.0        Jolly Mountain
+1034  0.19                 1.0        Silver Star
+1035  0.18                 1.0        Clover Springs
+1036  0.18                 1.0        Thunder Camp Access
+1037  0.18                 1.0        Little Kachess
+1038  0.18                 1.0        Starway
+1039  0.18                 1.0        Green Gulch Trail
+1040  0.18                 1.0        Sahale Ridge
+1041  0.17                 1.0        Buffalo Pass
+1042  0.17                 1.0        Quick Creek Camp
+1043  0.17                 1.0        USFS#785.3
+1044  0.16                 1.0        Snow Peak
+1045  0.16                 1.0        Long Lake Way
+1046  0.16                 1.0        Talapus Lake Trail
+1047  0.16                 1.0        Deadman's Lake
+1048  0.16                 1.0        Lake Minotuar
+1049  0.16                 1.0        Crystal Lakes
+1050  0.15                 1.0        Boulder Creek Camp Switchback Trail
+1051  0.15                 1.0        Mt Tom Creek Primitive Trail
+1052  0.15                 1.0        Leona
+1053  0.15                 1.0        Mystic Lake Cabin Spur
+1054  0.15                 1.0        Copper Lake Access
+1055  0.15                 1.0        Tuckaway Spur
+1056  0.14                 1.0        Salmo Cabin Trail
+1057  0.14                 1.0        Taylor Point Trail
+1058  0.13                 1.0        Slick Ear
+1059  0.13                 1.0        Hereford Meadows
+1060  0.13                 1.0        Black Hole Trail
+1061  0.13                 1.0        Pinkham
+1062  0.12                 1.0        Talapus Cutoff Trail
+1063  0.12                 1.0        Krause Bottom Trail
+1064  0.12                 1.0        Sand Lake
+1065  0.12                 1.0        Dog Mountain
+1066  0.11                 1.0        Bandera Mountain Trail
+1067  0.11                 1.0        Lake James Cabin Spur
+1068  0.11                 1.0        Royal Basin Trail (Usfs)
+1069  0.11                 1.0        Easton Ridge
+1070  0.11                 1.0        Loowit Falls
+1071  0.11                 1.0        Hawkins Mountain
+1072  0.10                 1.0        Backbone Ridge
+1073  0.10                 1.0        Silver Lake
+1074  0.10                 1.0        Carlton Creek
+1075  0.10                 1.0        Spray Falls Spur
+1076  0.10                 1.0        Mud Springs
+
+Individual trail segments (top 10):
+Rank  Length (miles)  Trail Name
+--------------------------------------------------
+1     50.33           Pacific Northwest Trail
+2     22.53           Icicle Ridge
+3     21.31           Hidden Lakes
+4     20.95           Monument Creek
+5     20.01           Robinson Creek
+6     19.96           Pacific Crest National Scenic Trail
+7     16.92           Castle Pass
+8     16.77           American Ridge
+9     16.12           Summit Trail Wilderness
+10    16.01           Buckskin Ridge
+
+Summary:
+Total length of non-intersecting trail segments: 3848.94 miles
+Number of unique trails: 1076
+Number of trail segments: 1758
+Average trail length: 3.58 miles
+Average segment length: 2.19 miles
+
+Analysis complete!
